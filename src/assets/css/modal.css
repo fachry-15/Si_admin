@@ -1,37 +1,33 @@
-.modal {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  z-index: 2;
-  width: 400px;
-  padding: 20px;
+.search {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 3%;
 }
 
-/* Tombol untuk menutup modal */
-.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-/* Style untuk tombol Buka Modal */
-#openModalBtn {
-  background-color: #007BFF;
-  color: #fff;
+.search input[type="text"] {
+  width: 600px;
+  padding: 10px;
   border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Hover efek untuk tombol Buka Modal */
-#openModalBtn:hover {
-  background-color: #0056b3;
+.search button[type="submit"] {
+  background-color: #4e99e9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.9s ease;
+}
+
+.search button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: blue;
 }

@@ -7,6 +7,7 @@
   <title>Modernize Free</title>
   <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
+  <link rel="stylesheet" href="../assets/css/modal.css">
 </head>
 
 <body>
@@ -45,17 +46,25 @@
               <span class="hide-menu">Data Hasil</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-buttons.html" aria-expanded="false">
+              <a class="sidebar-link" href="./dt_pendaftar.html" aria-expanded="false">
                 <span>
                   <i class="ti ti-article"></i>
                 </span>
-                <span class="hide-menu">Data Mahasiswa</span>
+                <span class="hide-menu">Data Pendaftar</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-alerts.html" aria-expanded="false">
+              <a class="sidebar-link" href="./dt_hasil.html" aria-expanded="false">
                 <span>
-                  <i class="ti ti-alert-circle"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rubber-stamp" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M21 17.85h-18c0 -4.05 1.421 -4.05 3.79 -4.05c5.21 0 1.21 -4.59 1.21 -6.8a4 4 0 1 1 8 0c0 2.21 -4 6.8 1.21 6.8c2.369 0 3.79 0 3.79 4.05z">
+                    </path>
+                    <path d="M5 21h14"></path>
+                  </svg>
                 </span>
                 <span class="hide-menu">Data Beasiswa</span>
               </a>
@@ -65,27 +74,73 @@
               <span class="hide-menu">Menu Proses</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
+              <a class="sidebar-link" href="./dt_proses.html" aria-expanded="false">
                 <span>
-                  <i class="ti ti-login"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-folder-bolt" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M13 19h-8a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v3.5"></path>
+                    <path d="M19 16l-2 3h4l-2 3"></path>
+                  </svg>
+                </span>
+                <span class="hide-menu"> Nilai Bobot</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./dt_matriks.html" aria-expanded="false">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-folder-cancel" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 19h-7a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v3"></path>
+                    <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                    <path d="M17 21l4 -4"></path>
+                  </svg>
                 </span>
                 <span class="hide-menu">Matriks Ternormalisasi</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
+              <a class="sidebar-link" href="./dt_prefensi.html" aria-expanded="false">
                 <span>
-                  <i class="ti ti-user-plus"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-folder-cancel" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 19h-7a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v3"></path>
+                    <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                    <path d="M17 21l4 -4"></path>
+                  </svg>
                 </span>
                 <span class="hide-menu">Nilai Prefensi</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
+              <a class="sidebar-link" href="./dt_akhir.html" aria-expanded="false">
                 <span>
-                  <i class="ti ti-user-plus"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-folder-check" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M11 19h-6a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v4"></path>
+                    <path d="M15 19l2 2l4 -4"></path>
+                  </svg>
                 </span>
                 <span class="hide-menu">Hasil Akhir</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Side Features</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./tmb_prodi.html" aria-expanded="false">
+                <span>
+                  <i class="ti ti-plus"></i>
+                </span>
+                <span class="hide-menu">Tambah Prodi</span>
               </a>
             </li>
             <li class="nav-small-cap">
@@ -95,23 +150,12 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
                 <span>
-                  <i class="ti ti-user-plus"></i>
+                  <i class="ti ti-user"></i>
                 </span>
                 <span class="hide-menu">Logout</span>
               </a>
             </li>
           </ul>
-          <div class="unlimited-access hide-menu bg-light-primary position-relative mb-7 mt-5 rounded">
-            <div class="d-flex">
-              <div class="unlimited-access-title me-3">
-                <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Upgrade to pro</h6>
-                <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Buy Pro</a>
-              </div>
-              <div class="unlimited-access-img">
-                <img src="../assets/images/backgrounds/rocket.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
         </nav>
         <!-- End Sidebar navigation -->
       </div>
@@ -138,7 +182,8 @@
           </ul>
           <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank" class="btn btn-primary">Download Free</a>
+              <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank"
+                class="btn btn-primary">Download Free</a>
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -171,7 +216,12 @@
         <!--  Row 1 -->
         <div class="card">
           <div class="card-body p-4">
-            <h5 class="card-title fw-semibold mb-4">Data Mahasiswa Informatika 2021</h5>
+            <h5 class="card-title fw-semibold mb-4">Data Mahasiswa Informatika Lolos Beasiswa</h5>
+            <div class="search">
+              <input placeholder="Masukkan Nama Peserta..." type="text">
+              <button type="submit">Cari</button>
+            </div>
+
             <div class="table-responsive">
               <table class="table text-nowrap mb-0 align-middle">
                 <thead class="text-dark fs-4">
@@ -201,10 +251,12 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
                     <td class="border-bottom-0">
-                        <h6 class="fw-semibold mb-1">Fachry Rizky .P</h6>
-                        <span class="fw-normal">E41212057</span>                          
+                      <h6 class="fw-semibold mb-0">1</h6>
+                    </td>
+                    <td class="border-bottom-0">
+                      <h6 class="fw-semibold mb-1">Fachry Rizky .P</h6>
+                      <span class="fw-normal">E41212057</span>
                     </td>
                     <td class="border-bottom-0">
                       <p class="mb-0 fw-normal">3.98</p>
@@ -221,12 +273,14 @@
                     <td class="border-bottom-0">
                       <h6 class="fw-semibold mb-0 fs-4">XX</h6>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
                     <td class="border-bottom-0">
-                        <h6 class="fw-semibold mb-1">Fachry Rizky .P</h6>
-                        <span class="fw-normal">E41212057</span>                          
+                      <h6 class="fw-semibold mb-0">1</h6>
+                    </td>
+                    <td class="border-bottom-0">
+                      <h6 class="fw-semibold mb-1">Fachry Rizky .P</h6>
+                      <span class="fw-normal">E41212057</span>
                     </td>
                     <td class="border-bottom-0">
                       <p class="mb-0 fw-normal">3.98</p>
@@ -243,12 +297,14 @@
                     <td class="border-bottom-0">
                       <h6 class="fw-semibold mb-0 fs-4">XX</h6>
                     </td>
-                  </tr>  
+                  </tr>
                   <tr>
-                    <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
                     <td class="border-bottom-0">
-                        <h6 class="fw-semibold mb-1">Fachry Rizky .P</h6>
-                        <span class="fw-normal">E41212057</span>                          
+                      <h6 class="fw-semibold mb-0">1</h6>
+                    </td>
+                    <td class="border-bottom-0">
+                      <h6 class="fw-semibold mb-1">Fachry Rizky .P</h6>
+                      <span class="fw-normal">E41212057</span>
                     </td>
                     <td class="border-bottom-0">
                       <p class="mb-0 fw-normal">3.98</p>
@@ -265,14 +321,15 @@
                     <td class="border-bottom-0">
                       <h6 class="fw-semibold mb-0 fs-4">XX</h6>
                     </td>
-                  </tr>                              
+                  </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
         <div class="py-6 px-6 text-center">
-          <p class="mb-0 fs-4">Design and Developed by <a href="https://adminmart.com/" target="_blank" class="pe-1 text-primary text-decoration-underline">AdminMart.com</a></p>
+          <p class="mb-0 fs-4">Design and Developed by <a href="https://adminmart.com/" target="_blank"
+              class="pe-1 text-primary text-decoration-underline">AdminMart.com</a></p>
         </div>
       </div>
     </div>
